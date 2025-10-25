@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Prova 13</title>
+</head>
+
+<body>
+    <div class="containerPrincipal">
+        <h1 class="tituloPrincipal">Cadastro de Usuário</h1>
+
+        <form class="formCadastro" id="formCadastro">
+            <div class="grupoInput">
+                <label for="inputNome" class="labelInput">Nome Completo</label>
+                <input type="text" id="inputNome" class="inputTexto" placeholder="Digite seu nome completo">
+                <p class="mensagemErro" id="erroNome"></p>
+            </div>
+
+            <div class="grupoInput">
+                <label for="inputUsuario" class="labelInput">Usuário</label>
+                <input type="text" id="inputUsuario" class="inputTexto" placeholder="Escolha um nome de usuário">
+                <p class="mensagemErro" id="erroUsuario"></p>
+            </div>
+
+            <div class="grupoInput">
+                <label for="inputSenha" class="labelInput">Senha</label>
+                <input type="password" id="inputSenha" class="inputSenha" placeholder="Crie uma senha forte">
+                <p class="mensagemErro" id="erroSenha"></p>
+            </div>
+
+            <div class="grupoInput">
+                <label for="inputEmail" class="labelInput">Email</label>
+                <input type="email" id="inputEmail" class="inputEmail" placeholder="seu@email.com">
+                <p class="mensagemErro" id="erroEmail"></p>
+            </div>
+
+            <div class="grupoInput">
+                <label for="inputDataNascimento" class="labelInput">Data de Nascimento</label>
+                <input type="date" id="inputDataNascimento" class="inputData">
+                <p class="mensagemErro" id="erroDataNascimento"></p>
+            </div>
+
+            <button type="submit" class="botaoCadastrar">Cadastrar</button>
+            <p class="mensagemSucesso" id="mensagemSucesso"></p>
+        </form>
+    </div>
+</body>
+
+</html>
